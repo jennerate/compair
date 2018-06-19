@@ -165,14 +165,16 @@ input[type=submit] {
 
 
 .variant {
-  font-size: 20px;
+  font-size: 15px;
   font-family: Raleway;
-  margin-left: 3rem;
-  margin-top: 1.5rem;
   background-color: white;
+  padding: 10px;
   z-index: 1;
+  margin-left: 3rem;
   position: relative;
+  width: 9.5rem;
 }
+
 
 .margin-evening {
   margin-left: 15px;
