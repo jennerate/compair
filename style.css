@@ -1,0 +1,196 @@
+.title-row {
+  padding-top: 3rem;
+}
+
+body {
+  font: 16px Arial; 
+}
+.autocomplete {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 2rem;
+  width: 45rem;
+}
+
+#myInput, #text-size, #myInputSecond, #text-size-two {
+  background: transparent;
+  border: none;
+  box-shadow: 3px 5px 10px rgb(99,112,129,0.1);
+}
+
+input {
+  border: 1px solid transparent;
+  background-color: #f1f1f1;
+  padding: 1rem;
+  font-size: 16px;
+}
+input[type=text] {
+  background-color: #f1f1f1;
+  width: 100%;
+}
+input[type=submit] {
+  background-color: DodgerBlue;
+  color: #fff;
+}
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff; 
+  border-bottom: 1px solid #d4d4d4; 
+}
+
+.autocomplete-items div:hover {
+  background-color: #e9e9e9; 
+  cursor: pointer;
+}
+
+.autocomplete-active {
+  background-color: DodgerBlue !important; 
+  color: #ffffff; 
+}
+
+#font-writing, #font-writing-second {
+  text-align: left;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  font-family: Raleway;
+}
+
+#font-writing {
+  margin-top: 4rem;
+  font-size: 30px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  cursor: pointer;
+}
+
+.dropdown-content a {
+  display: block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+}
+
+.variant-options {
+  color: green;
+}
+
+.title-row h1 {
+  font-family: 'Raleway';
+  font-weight: 400;
+  text-align: left;
+  color: black;
+  font-size: 7rem;
+  margin-bottom: 0rem;
+}
+
+.app-description {
+  font-family: 'Lato';
+  font-weight: 400;
+  text-align: left;
+  font-size: 2rem;
+  color: #637081; 
+}
+
+.font-numbering {
+  font-size: 3rem;
+  font-family: Lato;
+  margin-top: 4rem;
+}
+
+.dropbtn {
+  color: white;
+  background-color: #FF5D5C;
+  margin-left: 3rem;
+  width: 9.5rem;
+  height: 4rem;
+  border: none;
+  box-shadow: 3px 5px 10px rgb(255,93,92,0.4);
+  font-family: Raleway;
+  z-index: 0;
+  transition-delay:10s;
+}
+
+.font-size-row {
+  margin-left: 0rem;
+}
+
+#text-size, #text-size-two {
+  width: 30rem;
+}
+
+#text-size::placeholder, #myInput::placeholder, #myInputSecond::placeholder, #text-size-two::placeholder {
+  font-family: Raleway;
+  opacity: 90%;
+}
+
+.assets-img {
+  width: 25rem;
+  height: auto;
+  display: block;
+  margin-top: 5rem;
+}
+
+.assets-img-bottom {
+  width: 25rem;
+  height: auto;
+  position: absolute;
+  z-index: 1;
+  margin-top: 25rem;
+  margin-left: 25rem;
+}
+
+.variant:hover {
+  color: black;
+  background-color: FF5D5C;
+  cursor: hover;
+  transition-delay:3s;
+}
+
+
+.variant {
+  font-size: 20px;
+  font-family: Raleway;
+  margin-left: 3rem;
+  margin-top: 1.5rem;
+  background-color: white;
+  z-index: 1;
+  position: relative;
+}
+
+.margin-evening {
+  margin-left: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .margin-evening {
+    margin-right: 7rem;
+  }
+
+  #text-size, #text-size-two {
+    width: 27rem;
+  }
+}
